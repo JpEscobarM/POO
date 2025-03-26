@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE56CCF1-C341-43C0-9C12-2F66C5AD26F5}|Observer\\Observer.csproj|c:\\users\\jmartins\\onedrive - filtros planeta \u00E1gua ind e com ltda\\desktop\\faculdade\\c#\\estudo\\observer\\observer\\equipamentodemonitoramento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE56CCF1-C341-43C0-9C12-2F66C5AD26F5}|Observer\\Observer.csproj|solutionrelative:observer\\equipamentodemonitoramento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE56CCF1-C341-43C0-9C12-2F66C5AD26F5}|Observer\\Observer.csproj|C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\observer\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE56CCF1-C341-43C0-9C12-2F66C5AD26F5}|Observer\\Observer.csproj|solutionrelative:observer\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE56CCF1-C341-43C0-9C12-2F66C5AD26F5}|Observer\\Observer.csproj|C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\observer\\dados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE56CCF1-C341-43C0-9C12-2F66C5AD26F5}|Observer\\Observer.csproj|solutionrelative:observer\\dados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE56CCF1-C341-43C0-9C12-2F66C5AD26F5}|Observer\\Observer.csproj|C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\observer\\displayestatistico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE56CCF1-C341-43C0-9C12-2F66C5AD26F5}|Observer\\Observer.csproj|solutionrelative:observer\\displayestatistico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE56CCF1-C341-43C0-9C12-2F66C5AD26F5}|Observer\\Observer.csproj|C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\observer\\monitordedadosdoclima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE56CCF1-C341-43C0-9C12-2F66C5AD26F5}|Observer\\Observer.csproj|solutionrelative:observer\\monitordedadosdoclima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE56CCF1-C341-43C0-9C12-2F66C5AD26F5}|Observer\\Observer.csproj|C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\observer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE56CCF1-C341-43C0-9C12-2F66C5AD26F5}|Observer\\Observer.csproj|solutionrelative:observer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE56CCF1-C341-43C0-9C12-2F66C5AD26F5}|Observer\\Observer.csproj|C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\observer\\displaydecondicoesatuais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE56CCF1-C341-43C0-9C12-2F66C5AD26F5}|Observer\\Observer.csproj|solutionrelative:observer\\displaydecondicoesatuais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE56CCF1-C341-43C0-9C12-2F66C5AD26F5}|Observer\\Observer.csproj|C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\observer\\observador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE56CCF1-C341-43C0-9C12-2F66C5AD26F5}|Observer\\Observer.csproj|solutionrelative:observer\\observador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE56CCF1-C341-43C0-9C12-2F66C5AD26F5}|Observer\\Observer.csproj|C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\observer\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CE56CCF1-C341-43C0-9C12-2F66C5AD26F5}|Observer\\Observer.csproj|solutionrelative:observer\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE56CCF1-C341-43C0-9C12-2F66C5AD26F5}|Observer\\Observer.csproj|C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\observer\\sujeitoobservavel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE56CCF1-C341-43C0-9C12-2F66C5AD26F5}|Observer\\Observer.csproj|solutionrelative:observer\\sujeitoobservavel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\Observer\\MainForm.cs",
+              "RelativeDocumentMoniker": "Observer\\MainForm.cs",
+              "ToolTip": "C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\Observer\\MainForm.cs",
+              "RelativeToolTip": "Observer\\MainForm.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T12:55:03.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\Observer\\App.config",
+              "RelativeDocumentMoniker": "Observer\\App.config",
+              "ToolTip": "C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\Observer\\App.config",
+              "RelativeToolTip": "Observer\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-25T12:51:49.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DisplayEstatistico.cs",
+              "DocumentMoniker": "C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\Observer\\DisplayEstatistico.cs",
+              "RelativeDocumentMoniker": "Observer\\DisplayEstatistico.cs",
+              "ToolTip": "C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\Observer\\DisplayEstatistico.cs",
+              "RelativeToolTip": "Observer\\DisplayEstatistico.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowBwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T17:59:23.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MonitorDeDadosDoClima.cs",
+              "DocumentMoniker": "C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\Observer\\MonitorDeDadosDoClima.cs",
+              "RelativeDocumentMoniker": "Observer\\MonitorDeDadosDoClima.cs",
+              "ToolTip": "C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\Observer\\MonitorDeDadosDoClima.cs",
+              "RelativeToolTip": "Observer\\MonitorDeDadosDoClima.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwCYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T12:04:17.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EquipamentoDeMonitoramento.cs",
+              "DocumentMoniker": "C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\Observer\\EquipamentoDeMonitoramento.cs",
+              "RelativeDocumentMoniker": "Observer\\EquipamentoDeMonitoramento.cs",
+              "ToolTip": "C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\Observer\\EquipamentoDeMonitoramento.cs",
+              "RelativeToolTip": "Observer\\EquipamentoDeMonitoramento.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwB4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T10:51:14.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dados.cs",
+              "DocumentMoniker": "C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\Observer\\Dados.cs",
+              "RelativeDocumentMoniker": "Observer\\Dados.cs",
+              "ToolTip": "C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\Observer\\Dados.cs",
+              "RelativeToolTip": "Observer\\Dados.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T13:46:36.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DisplayDeCondicoesAtuais.cs",
+              "DocumentMoniker": "C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\Observer\\DisplayDeCondicoesAtuais.cs",
+              "RelativeDocumentMoniker": "Observer\\DisplayDeCondicoesAtuais.cs",
+              "ToolTip": "C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\Observer\\DisplayDeCondicoesAtuais.cs",
+              "RelativeToolTip": "Observer\\DisplayDeCondicoesAtuais.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T13:35:30.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\Observer\\Program.cs",
+              "RelativeDocumentMoniker": "Observer\\Program.cs",
+              "ToolTip": "C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\Observer\\Program.cs",
+              "RelativeToolTip": "Observer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T10:49:57.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Observador.cs",
+              "DocumentMoniker": "C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\Observer\\Observador.cs",
+              "RelativeDocumentMoniker": "Observer\\Observador.cs",
+              "ToolTip": "C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\Observer\\Observador.cs",
+              "RelativeToolTip": "Observer\\Observador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T11:01:46.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SujeitoObservavel.cs",
+              "DocumentMoniker": "C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\Observer\\SujeitoObservavel.cs",
+              "RelativeDocumentMoniker": "Observer\\SujeitoObservavel.cs",
+              "ToolTip": "C:\\Users\\jmartins\\OneDrive - FILTROS PLANETA \u00C1GUA IND E COM LTDA\\Desktop\\Faculdade\\C#\\estudo\\Observer\\Observer\\SujeitoObservavel.cs",
+              "RelativeToolTip": "Observer\\SujeitoObservavel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T10:55:10.459Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

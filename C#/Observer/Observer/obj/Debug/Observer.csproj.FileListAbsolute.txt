@@ -1,0 +1,7 @@
+C:\Users\jmartins\OneDrive - FILTROS PLANETA ÁGUA IND E COM LTDA\Desktop\Faculdade\C#\estudo\Observer\Observer\bin\Debug\Observer.exe.config
+C:\Users\jmartins\OneDrive - FILTROS PLANETA ÁGUA IND E COM LTDA\Desktop\Faculdade\C#\estudo\Observer\Observer\bin\Debug\Observer.exe
+C:\Users\jmartins\OneDrive - FILTROS PLANETA ÁGUA IND E COM LTDA\Desktop\Faculdade\C#\estudo\Observer\Observer\bin\Debug\Observer.pdb
+C:\Users\jmartins\OneDrive - FILTROS PLANETA ÁGUA IND E COM LTDA\Desktop\Faculdade\C#\estudo\Observer\Observer\obj\Debug\Observer.csproj.AssemblyReference.cache
+C:\Users\jmartins\OneDrive - FILTROS PLANETA ÁGUA IND E COM LTDA\Desktop\Faculdade\C#\estudo\Observer\Observer\obj\Debug\Observer.csproj.CoreCompileInputs.cache
+C:\Users\jmartins\OneDrive - FILTROS PLANETA ÁGUA IND E COM LTDA\Desktop\Faculdade\C#\estudo\Observer\Observer\obj\Debug\Observer.exe
+C:\Users\jmartins\OneDrive - FILTROS PLANETA ÁGUA IND E COM LTDA\Desktop\Faculdade\C#\estudo\Observer\Observer\obj\Debug\Observer.pdb

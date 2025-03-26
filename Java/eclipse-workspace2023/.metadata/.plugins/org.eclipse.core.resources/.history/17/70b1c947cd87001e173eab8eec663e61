@@ -1,0 +1,8 @@
+package encapsulamento;
+
+public class EncapsulamentoMain {
+	public static void main(String[] args) {
+		
+		
+	}
+}

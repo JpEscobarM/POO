@@ -1,0 +1,36 @@
+package br.ucs.poo.trabalho2;
+import java.io.Serializable;
+import java.time.LocalTime;
+import java.util.Date;
+
+
+public class Horario implements Serializable{
+	
+	Date data;
+	private String horario;
+	Filme filme;
+	
+	public Date getData() {
+		return data;
+	}
+	public void setData(Date data) {
+		this.data = data;
+	}
+	public String getHorario() {
+		return horario;
+	}
+	public void setHorario(String horario) {
+		this.horario = horario;
+	}
+	public Filme getFilme() {
+		return filme;
+	}
+	public void setFilme(Filme f) {
+		this.filme = f;
+	}
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,7 @@
+package Maps;
+import serializacao.Conta;
+
+public class mapas {
+	Map<String,Integer> contas = new HashMap<>();
+	
+}

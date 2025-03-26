@@ -1,0 +1,11 @@
+package encapsulamento;
+
+public class EncapsulamentoMain {
+	public static void main(String[] args) {
+		Conta c = new Conta();
+		
+		c.nome = "Joao";
+		c.cpf = "1239132";
+		c.saldo = 299.00;
+	}
+}

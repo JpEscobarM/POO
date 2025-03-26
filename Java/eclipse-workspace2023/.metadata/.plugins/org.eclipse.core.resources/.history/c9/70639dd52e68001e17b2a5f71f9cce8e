@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Teste {
+	public static void main( String[] args) {
+		Scanner input= new Scanner[System.in];
+		Turma[] turmas = new Turma[30];
+		int contador = 0;
+		
+		System.out.println("Digite o codigo da turma: ");
+		
+		
+	}
+}

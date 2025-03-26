@@ -1,0 +1,20 @@
+
+public class MainClass {
+	
+	
+	public static void fibonacci(int ant1, int ant2, int count) {
+		
+		int atual = ant1+ant2;
+		
+		
+		fibonacci(atual,ant1);
+	}
+	
+	public static void main(String[] args) {
+		
+	int anterior1=1, anterior2=0,contador;
+		
+		
+		
+	}
+}

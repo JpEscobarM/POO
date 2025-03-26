@@ -1,0 +1,36 @@
+
+public class Luta {
+	private Lutador desafiando;
+	private Lutador desafiado;
+	private int rounds;
+	private boolean aprovada;
+	
+//getters and setters
+	public Lutador getDesafiando() {
+		return desafiando;
+	}
+	public void setDesafiando(Lutador a) {
+		this.desafiando = a;
+	}
+	public Lutador setDesafiado(Lutador desafiado) {
+		this.desafiado = desafiado;
+	}
+	public Lutador getDesafiado() {
+		return desafiado;
+	}
+	public void setRounds(int rounds) {
+		this.rounds =rounds;
+	}
+	public int getRounds() {
+		return rounds;
+	}
+//Metodos:
+	
+	public void marcarLuta() {
+		
+	}
+	public void lutar() {
+		
+	}
+	
+}

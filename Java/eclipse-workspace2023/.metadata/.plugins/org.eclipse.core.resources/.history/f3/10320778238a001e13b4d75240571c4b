@@ -1,0 +1,28 @@
+package br.ucs.poo.trabalho2;
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Sala implements Serializable{
+	private int numero;
+	List<Horario>horarios = new ArrayList();//cinema abre das 14 até 11:00 total 10 horas
+	List<Assento> assentos = new ArrayList();//assentos da sala
+	public Sala() {
+		
+	}
+	public void horariosDisponiveis() {
+		this.horarios.add(new Hoarrio());
+	}
+	public Sala(int numero) {
+		this.numero = numero;
+	}
+	public String toString() {
+		return "Sala[" + numero +"]";
+	}
+	public void setNumero(int n) {
+		this.numero = n;
+	}
+	public int getNumero() {
+		return this.numero;
+	}
+}

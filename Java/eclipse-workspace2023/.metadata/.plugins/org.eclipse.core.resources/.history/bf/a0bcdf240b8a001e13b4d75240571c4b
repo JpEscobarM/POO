@@ -1,0 +1,113 @@
+package br.ucs.poo.trabalho2;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+public class Cinema {
+	private String nome;
+	private String endereco;
+	Set<Genero> generos = new HashSet<>()); //lista de generos
+	List<Sala> salas = new ArrayList(); //lista de salas do cinema
+	List<Filme> filmes = new ArrayList(); //lista de filmes do cinema
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getEndereco() {
+		return endereco;
+	}
+
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
+	}
+	
+	public Filme exibeFilmes(int i) {
+		
+		return filmes.get(i);
+	}
+	public void filmesPadrao() {
+		this.filmes.add(new Filme("Pequeno Príncipe",2003,"Um filme infantil"));
+		this.filmes.add(new Filme("Homem-Aranha : Aranha-Verso",2018,"Animação do Homem-Aranha"));
+	}
+	public void generosPadrao() {
+		generos.add(new Genero("Ação"));
+		generos.add(new Genero("Aventura"));
+		generos.add(new Genero("Romance"));
+		generos.add(new Genero("Terror"));
+	}
+	public void salasPadrao() {
+		salas.add(new Sala(1));
+		salas.add(new Sala(2));
+		salas.get(0).assentos.add(new Assento("A",1));
+		salas.get(0).assentos.add(new Assento("A",2));
+		salas.get(0).assentos.add(new Assento("A",3));
+		salas.get(0).assentos.add(new Assento("A",4));
+		salas.get(0).assentos.add(new Assento("A",5));
+		salas.get(0).assentos.add(new Assento("B",1));
+		salas.get(0).assentos.add(new Assento("B",2));
+		salas.get(0).assentos.add(new Assento("B",3));
+		salas.get(0).assentos.add(new Assento("B",4));
+		salas.get(0).assentos.add(new Assento("B",5));
+		salas.get(0).assentos.add(new Assento("C",1));
+		salas.get(0).assentos.add(new Assento("C",2));
+		salas.get(0).assentos.add(new Assento("C",3));
+		salas.get(0).assentos.add(new Assento("C",4));
+		salas.get(0).assentos.add(new Assento("C",5));
+		salas.get(0).assentos.add(new Assento("A",1));
+		salas.get(0).assentos.add(new Assento("A",2));
+		salas.get(1).assentos.add(new Assento("A",3));
+		salas.get(1).assentos.add(new Assento("A",4));
+		salas.get(1).assentos.add(new Assento("A",5));
+		salas.get(1).assentos.add(new Assento("B",1));
+		salas.get(1).assentos.add(new Assento("B",2));
+		salas.get(1).assentos.add(new Assento("B",3));
+		salas.get(1).assentos.add(new Assento("B",4));
+		salas.get(1).assentos.add(new Assento("B",5));
+		salas.get(1).assentos.add(new Assento("C",1));
+		salas.get(1).assentos.add(new Assento("C",2));
+		salas.get(1).assentos.add(new Assento("C",3));
+		salas.get(1).assentos.add(new Assento("C",4));
+		salas.get(1).assentos.add(new Assento("C",5));
+	}
+	
+	public void adicionaSala(int i) {
+		Sala s = new Sala();
+		s.setNumero(i);
+		s.assentos.add(new Assento("A", 1));
+		s.assentos.add(new Assento("A", 2));
+		s.assentos.add(new Assento("A", 3));
+		s.assentos.add(new Assento("A", 4));
+		s.assentos.add(new Assento("A", 5));
+		s.assentos.add(new Assento("B", 1));
+		s.assentos.add(new Assento("B", 2));
+		s.assentos.add(new Assento("B", 3));
+		s.assentos.add(new Assento("B", 4));
+		s.assentos.add(new Assento("B", 5));
+		s.assentos.add(new Assento("C", 1));
+		s.assentos.add(new Assento("C", 2));
+		s.assentos.add(new Assento("C", 3));
+		s.assentos.add(new Assento("C", 4));
+		s.assentos.add(new Assento("C", 5));
+		this.salas.add(s);
+	}
+	public void removeFilme(String nome) {
+		int i;
+		for(i=0; i<this.filmes.size();) {
+			if(this.filmes.get(i).getNome().equalsIgnoreCase(nome)) {
+				this.filmes.remove(i);
+				i++;
+			
+			}
+			
+		}
+			
+	}
+	
+}

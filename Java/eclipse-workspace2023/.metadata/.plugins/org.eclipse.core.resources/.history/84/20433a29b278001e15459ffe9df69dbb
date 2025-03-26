@@ -1,0 +1,25 @@
+package application;
+import java.util.Scanner;
+
+import br.ucs.poo.tratamentoexceções.exercicios.Account;
+
+import java.util.Locale;
+
+public class Program {
+	public static void  main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Account c = new Account();
+		Scanner input = new Scanner(System.in);
+		
+		
+		System.out.println("Informe os dados da conta");
+		System.out.print("Numero: " );
+		int number = input.nextInt();
+		System.out.println("Titular: ");
+		input.nextLine();
+		String holder = input.nextLine();
+		
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+
+public class MainClass {
+	
+	
+	public static void fibonacci(int ant1, int ant2) {
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	int anterior1=1, anterior2=0;
+		
+		
+		
+	}
+}

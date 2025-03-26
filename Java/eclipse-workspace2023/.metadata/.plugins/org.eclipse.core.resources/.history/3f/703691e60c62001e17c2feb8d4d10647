@@ -1,0 +1,8 @@
+
+public class Luta {
+	private Lutador desafiando;
+	private Lutador desafiado;
+	private int rounds;
+	private boolean aprovada;
+	
+}

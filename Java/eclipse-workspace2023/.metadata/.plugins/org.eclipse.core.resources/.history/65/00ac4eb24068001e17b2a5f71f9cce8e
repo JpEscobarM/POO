@@ -1,0 +1,73 @@
+import java.util.Scanner;
+public class Menu {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		Turma[] turmas = new Turma[30]; 
+		int w = 0,opcao=0;
+		int contador = 0;
+	while ( w != 1) {
+		System.out.println("----------------------------------");
+		System.out.println("	Instituição TI	  ");
+		System.out.println("----------------------------------");
+		System.out.println("1)Listar todas as turmas");
+		System.out.println("2)Informar dados de uma turma");
+		System.out.println("3)Consultar os dados de uma turma");
+		System.out.println("4)Consultar estatisticas gerais");
+		System.out.println("5)Sair do sistema");
+		opcao = input.nextInt();
+		switch(opcao) {
+		
+		case 1:
+			
+			break;
+		case 2:
+			turmas[contador] = new Turma();
+			input.nextLine();
+			System.out.println("Digite o codigo da turma: ");//FBI00001AX
+			turmas[contador].setCodigo(input.nextLine());
+			input.nextLine();
+				System.out.println("Digite o nome da disciplina: ");
+				Disciplina d = new Disciplina();
+				d.setNome(input.nextLine());			
+				input.nextLine();
+				turmas[contador].setDisciplina(d);
+					System.out.println("Digite o nome do professor: ");					
+					Professor p= new Professor();
+					p.setNome(input.nextLine());
+					turmas[contador].setProfessor(p);
+					System.out.println(turmas[contador].getNomeProfessor());
+					System.out.println(turmas[contador].getDisciplina().getNome());
+					System.out.println(turmas[contador].getCodigo());
+				
+					
+					
+					break;
+		
+		case 3:
+			
+			break;
+			
+		case 4:
+		
+			break;
+		
+		case 5:
+			w = 1;
+			break;
+			
+		default :
+			System.out.println("Opção invalida!");
+		}
+	}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}//Main
+}//classe

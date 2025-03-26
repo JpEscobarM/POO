@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+public class MainClass {
+	
+	
+	public static int fibonacci(int ant1, int ant2) {
+		
+		int atual = ant1+ant2;
+		
+		return atual;
+	}
+	
+	public static void main(String[] args) {
+		
+	int anterior1=1, anterior2=0,contador;
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Deseja escrever quantos números da série de fibbonacci?: ");
+		contador=input.nextInt();
+		
+		
+		System.out.print(anterior2 +" "+ anterior1);
+		
+		int atual = fibonacci(anterior1,anterior2);
+		
+		System.out.print(+" "+atual);
+	
+		
+		for(int i=3; i < contador; i++) {
+			
+		atual = fibonacci(atual,anterior1);
+			
+		System.out.println(atual);
+		
+		
+		
+		}
+		
+	}
+}

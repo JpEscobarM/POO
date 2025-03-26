@@ -1,0 +1,13 @@
+package Maps;
+import java.util.HashMap;
+import java.util.Map;
+
+import serializacao.Conta;
+
+public class mapas {
+	Map<String, Conta> contas = new HashMap<>();
+	
+	Conta c = new Conta();
+	contas.put(c);
+	
+}

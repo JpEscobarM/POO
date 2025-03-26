@@ -1,0 +1,63 @@
+
+public class Luta {
+	private Lutador desafiando;
+	private Lutador desafiado;
+	private int rounds;
+	private boolean aprovada;
+	
+//getters and setters
+	public Lutador getDesafiando() {
+		return desafiando;
+	}
+	public void setDesafiando(Lutador a) {
+		this.desafiando = a;
+	}
+	public void setDesafiado(Lutador desafiado) {
+		this.desafiado = desafiado;
+	}
+	public Lutador getDesafiado() {
+		return desafiado;
+	}
+	public void setRounds(int rounds) {
+		this.rounds =rounds;
+	}
+	public int getRounds() {
+		return rounds;
+	}
+	public void setAprovada(boolean aprovada) {
+		
+	}
+	public boolean getAprovada() {
+		return this.aprovada;
+	}
+//Metodos:
+	
+	public void marcarLuta(Lutador desafiante,Lutador desafiado) {
+		if ( desafiado.getCategoria() == desafiante.getCategoria() ) {
+			if ( desafiante != desafiado) {
+				this.setDesafiando(desafiante);
+				this.setDesafiado(desafiado);
+				
+				this.setAprovada(true);
+			}
+		}
+		else {
+			this.setAprovada(false);
+			
+		}
+	}//Marcaluta
+	public void lutar() {
+		if (aprovada) {
+			System.out.println("----------DESAFIANTE----------");
+			this.desafiando.apresentar();
+			System.out.println("---------DESAFIADO----------");
+			this.desafiado.apresentar();
+			
+			
+		}
+		else {
+			System.out.println("Luta não pode acontecer");
+		}
+	}
+	
+}//clsse

@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class UFC {
+	public static void main(String[] args) {
+		
+		Lutador l[] = new Lutador []; 
+		
+		//Lutador lutador1 = new Lutador("Juliano","Caxias do Sul",23,1.70,65,3,2,0);
+		//lutador1.status();
+	}
+}

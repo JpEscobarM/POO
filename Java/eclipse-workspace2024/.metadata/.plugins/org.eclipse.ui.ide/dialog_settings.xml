@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\jmartins\Downloads\EstudoProva\EstudoProva"/>
+			<item value="C:\Users\jmartins\Downloads\trabalho2 10nov\LocadoraAutomoveisW"/>
+			<item value="C:\Users\jmartins\eclipse-workspace2024\LocadoraAutomoveis"/>
+			<item value="C:\Users\jmartins\eclipse-workspace2024\Trabalho1"/>
+			<item value="C:\Users\jmartins\Downloads\Trabalho2\trabalho2 10nov\LocadoraAutomoveis"/>
+			<item value="C:\Users\jmartins\Downloads\Trabalho2\trabalho2 10nov"/>
+			<item value="C:\Users\jmartins\Downloads\tabelaDePrecos (1)\tabelaDePrecos"/>
+			<item value="C:\Users\jmartins\Downloads\ReUp\trabalho2"/>
+			<item value="C:\Users\jmartins\Downloads\tabelaDePrecos"/>
+			<item value="C:\Users\jmartins\Downloads\tabelaDePrecos-28-10"/>
+			<item value="C:\Users\jmartins\Downloads\LojaInformatica\LojaInformatica"/>
+			<item value="C:\Users\jmartins\Downloads\Trabalho1"/>
+			<item value="C:\Users\jmartins\Downloads\Trabalho1 (1)\Seguradora"/>
+			<item value="C:\Users\jmartins\Downloads\SistemaAcademico"/>
+			<item value="C:\Users\jmartins\Downloads\TDE SistemaAcademico-20240902T112911Z-001"/>
+			<item value="C:\Users\jmartins\Downloads\TDE SistemaAcademico"/>
+			<item value="C:\Users\jmartins\Downloads\TDE SistemaAcademico\TDE SistemaAcademico\SistemaAcademico"/>
+			<item value="C:\Users\jmartins\Downloads\TDE SistemaAcademico\TDE SistemaAcademico"/>
+			<item value="C:\Users\jmartins\Downloads\TDE SistemaAcademico-20240902T112911Z-001\TDE SistemaAcademico\SistemaAcademico"/>
+			<item value="C:\Users\jmartins\Downloads\TDE SistemaAcademico\SistemaAcademico"/>
+			<item value="C:\Users\jmartins\eclipse-workspace2024"/>
+			<item value="C:\Users\jmartins\eclipse-workspace2023"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="676"/>
+		<item key="DIALOG_Y_ORIGIN" value="337"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="ExternalProjectImportWizard">
+	</section>
+</section>

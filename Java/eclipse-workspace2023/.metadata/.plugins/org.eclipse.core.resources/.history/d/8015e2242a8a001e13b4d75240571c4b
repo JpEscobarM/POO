@@ -1,0 +1,47 @@
+package br.ucs.poo.trabalho2;
+import java.io.Serializable;
+import java.time.LocalTime;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+
+public class Horario implements Serializable{
+	
+	Date data;
+	List <String> hora = new ArrayList<>();
+	Filme filme;
+	
+
+	public Horario() {
+		
+	}
+	public void horariosPadrao() {
+		hora.add("13:00");
+		hora.add("14:30");
+		hora.add("16:30");
+		hora.add("18:00");
+		hora.add("19:30");
+		hora.add("21:00");
+		hora.add("22:30");
+	}
+	
+	public Date getData() {
+		return data;
+	}
+	public void setData(Date data) {
+		this.data = data;
+	}
+	
+	public Filme getFilme() {
+		return filme;
+	}
+	public void setFilme(Filme f) {
+		this.filme = f;
+	}
+	
+	
+	
+	
+	
+}

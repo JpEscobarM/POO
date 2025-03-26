@@ -1,0 +1,18 @@
+package br.ucs.poo.trabalho2;
+
+public class Horas {
+	private String hora;
+	private boolean ocupado;
+	public String getHora() {
+		return hora;
+	}
+	public void setHora(String hora) {
+		this.hora = hora;
+	}
+	public boolean getOcupado() {
+		return ocupado;
+	}
+	public void setOcupado(boolean ocupado) {
+		this.ocupado = ocupado;
+	}
+}

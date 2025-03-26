@@ -1,0 +1,6 @@
+package br.ucs.poo.trabalho2;
+
+public class Horas {
+	private String hora;
+	private boolean ocupado;
+}

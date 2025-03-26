@@ -1,0 +1,275 @@
+package br.ucs.poo.trabalho2;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Interface {
+
+	public static String ARQUIVO = "arquivo.dat";
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		Cinema cinema = new Cinema();
+		
+		File f = new File(ARQUIVO);
+
+		int wh = 0, op = 0;
+		cinema.setNome("Paramount");
+		cinema.setEndereco("Av. Rio Branco, 311 - Centro, Rio de Janeiro - RJ, 20040-903");
+		int menu = 0;
+		cinema.generosPadrao();
+		cinema.salasPadrao();
+		cinema.filmesPadrao();
+
+		while (menu != 1) {
+			System.out.println("	-----Bem vindo ao cinema " + cinema.getNome() + "-----");
+			System.out.println("Localizado em " + cinema.getEndereco());
+			System.out.println("1 -CADASTROS.");
+			System.out.println("2 -EXCLUIR.");
+			System.out.print("Opção: ");
+			op = input.nextInt();
+			switch (op) {
+
+			case 1://CADASTRAR
+				System.out.println();
+				System.out.println("-----Cinema Manager----");
+				System.out.println("1- adicionar Filme ao catálogo");
+				System.out.println("2- adicionar Genero ao catálogo");
+				System.out.println("3- adicionar Sala");
+				System.out.println("4- Cadastrar Ator ");
+				System.out.println("5- Cadastrar Diretor ");
+				int op1 = 0;
+				op1 = input.nextInt();
+				input.nextLine();
+				switch (op1) {
+				case 1:
+					System.out.println("Digite o nome do filme: ");
+					Filme film = new Filme();
+					film.setNome(input.nextLine());
+					System.out.println("Digite o ano: ");
+					film.setAno(input.nextInt());
+					input.nextLine();
+					System.out.println("Digite a sinópse: ");
+					film.setDescricao(input.nextLine());
+					System.out.println(cinema.generos);
+					System.out.println("Digite o genero do filme: ");
+					film.genero.setGenero(input.nextLine());
+					System.out.println();
+					System.out.println("--------------------");
+					System.out.println("Atores do filme: ");
+					int k = 1;
+					while (k == 1) {
+						Ator ator = new Ator();
+						System.out.print("Nome do ator(a): ");
+						ator.setNome(input.nextLine());
+						System.out.print("País de origem: ");
+						ator.setPaisOrigem(input.nextLine());
+						System.out.print("Conjuge: ");
+						ator.setConjuge(input.nextLine());
+						film.atores.add(ator);
+						System.out.print("Deseja adicionar mais um ator(a)? 1-SIM 2-NAO");
+						k = input.nextInt();
+						input.nextLine();
+					}
+					k = 1;
+					System.out.println();
+					System.out.println("--------------------");
+					System.out.println("Diretores do filme: ");
+					while (k == 1) {
+						Diretor diretor = new Diretor();
+						System.out.print("Nome do diretor(a): ");
+						diretor.setNome(input.nextLine());
+						System.out.print("País de origem: ");
+						diretor.setPaisOrigem(input.nextLine());
+						System.out.print("Conjuge: ");
+						diretor.setConjuge(input.nextLine());
+						film.diretores.add(diretor);
+						System.out.print("Deseja adicionar mais um diretor(a)? 1-SIM 2-NAO");
+						k = input.nextInt();
+						input.nextLine();
+
+					}
+					cinema.filmes.add(film);
+					System.out.println("FILME ADICIONADO. ");
+					System.out.println("Pressione [ENTER] para retornar ao menu principal.");
+					input.nextLine();
+					break;
+				case 2:
+					System.out.println("Digite o gênero a ser adicionado: ");
+					cinema.generos.add(new Genero(input.nextLine()));
+					System.out.println("GENERO ADICIONADO.");
+					System.out.println("Pressione [ENTER] para retornar ao menu principal.");
+					input.nextLine();
+					break;
+				case 3: 
+					Sala s = new Sala();
+					System.out.println("---Salas já disponíveis---");
+					System.out.println(cinema.salas);
+					System.out.println("----------");
+					System.out.println("Digite o número da nova sala: ");
+					
+					cinema.adicionaSala(input.nextInt());
+					input.nextLine();
+					System.out.println("digite o dia que essa sala ficará disponível: ");
+					Horario h = new Horario();
+					
+
+					
+					System.out.println("SALA ADICIONADA.");
+					System.out.println("Pressione [ENTER] para retornar ao menu principal.");
+					input.nextLine();
+					
+					
+
+					break;
+				case 4:
+					k = 1;
+					while (k == 1) {
+						Ator ator = new Ator();
+						System.out.print("Nome do ator(a): ");
+						ator.setNome(input.nextLine());
+						System.out.print("País de origem: ");
+						ator.setPaisOrigem(input.nextLine());
+						System.out.print("Conjuge: ");
+						ator.setConjuge(input.nextLine());
+						System.out.println("Está presente no filme: ");
+						int i = 0;
+						for (i = 0; i < cinema.filmes.size(); i++) {
+							System.out.print((i + 1) + "-");
+							System.out.println(cinema.exibeFilmes(i));
+						}
+						System.out.println("Se o filme está listado pressione [9]");
+						System.out.println(
+								"Caso não esteja presente em nenhum filme listado digite [0] e cadastre o filme");
+
+						int select = input.nextInt();
+						input.nextLine();
+						if (select == 0) {
+							k = 2;
+						} else {
+							System.out.print("Ator pertence ao filme número: ");
+							select = input.nextInt();
+							input.nextLine();
+							cinema.filmes.get(select - 1).atores.add(ator);
+							System.out.println("Deseja adicionar mais um ator(a)? 1-SIM 2-NAO");
+							k = input.nextInt();
+							input.nextLine();
+						}
+					}
+					break;
+				case 5:
+					k = 1;
+					while (k == 1) {
+						Diretor diretor = new Diretor();
+						System.out.print("Nome do diretor(a): ");
+						diretor.setNome(input.nextLine());
+						System.out.print("País de origem: ");
+						diretor.setPaisOrigem(input.nextLine());
+						System.out.print("Conjuge: ");
+						diretor.setConjuge(input.nextLine());
+						System.out.print("Está presente no filme: ");
+
+						int i = 0;
+						for (i = 0; i < cinema.filmes.size(); i++) {
+							System.out.print((i + 1) + "-");
+							System.out.println(cinema.exibeFilmes(i));
+						}
+						System.out.println("Se o filme está listado pressione [9]");
+						System.out.println(
+								"Caso não esteja presente em nenhum filme listado digite [0] e cadastre o filme");
+
+						int select = input.nextInt();
+						input.nextLine();
+						if (select == 0) {
+							k = 2;
+						} else {
+							System.out.print("Diretor pertence ao filme número: ");
+							select = input.nextInt();
+							input.nextLine();
+							cinema.filmes.get(select - 1).atores.add(diretor);
+							System.out.println("Deseja adicionar mais um diretor(a)? 1-SIM 2-NAO");
+							k = input.nextInt();
+							input.nextLine();
+						}
+					}
+					break;
+				}
+				break;
+				
+			case 2://EXCLUIR
+				System.out.println();
+				System.out.println("-----Cinema Manager----");
+				System.out.println("1- Excluir filme.");
+				System.out.println("2- Excluir Genero");
+				System.out.println("3- adicionar Sala");
+				System.out.println("4- Cadastrar Ator ");
+				System.out.println("5- Cadastrar Diretor ");
+			 op1 = 0;
+			 op1= input.nextInt();
+			 input.nextLine();
+			switch(op1) {
+				case 1://EXCLUIR FILME
+					try {
+					System.out.println();
+					System.out.println("---EXCLUIR FILME---");
+					
+					int i;
+					for ( i =0; i < cinema.filmes.size();i++) {
+						System.out.println("["+ (i+1) +"]" +cinema.filmes.get(i));
+					}
+					System.out.println("Digite o número do filme que deseja excluir: ");
+					int n= input.nextInt();
+					input.nextLine();
+					cinema.filmes.remove((n-1));
+				
+				
+					System.out.println("FILME REMOVIDO");
+					System.out.println("Pressione [ENTER] para retornar ao menu principal.");
+					String in = input.nextLine();
+					}catch(RuntimeException sdg) {
+						sdg.getMessage();
+						System.out.println("Sem filmes cadastrados.");
+						System.out.println("Pressione [ENTER] para retornar ao menu principal.");
+						String in = input.nextLine();
+					}
+				break;
+				
+				case 2:
+				try {	
+				System.out.println("\n--EXCLUIR GENERO--");
+				int i=0;
+				for(i=0; i<cinema.generos.size();i++) {
+					System.out.println("["+(i+1)+"]"+ cinema.generos.get(i));
+					
+				}
+				System.out.println("Digite o número do gênero que deseja excluir: ");
+				int n = input.nextInt();
+				input.nextLine();
+				cinema.generos.remove(n-1);
+				System.out.println("GENERO REMOVIDO");
+				System.out.println("Pressione [ENTER] para retornar ao menu principal.");
+				String in = input.nextLine();
+				}catch(RuntimeException abc) {
+					abc.getMessage();
+					System.out.println("Sem gêneros cadastrados.");
+					System.out.println("Pressione [ENTER] para retornar ao menu principal.");
+					String in = input.nextLine();
+				}
+				
+				break;
+				case 3:
+				
+					
+				break;
+				
+			}		
+			break;
+			}//while principal
+
+		}
+		input.close();
+	}
+}

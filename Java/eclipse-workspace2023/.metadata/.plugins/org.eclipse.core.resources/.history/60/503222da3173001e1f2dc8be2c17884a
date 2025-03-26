@@ -1,0 +1,18 @@
+package br.ucs.poo.tratamentoexceções.exercicios;
+
+public class Exercicio1 {
+
+}
+
+static void metodo1() {
+	System.out.println("inicio do metodo1");
+	metodo2();
+	System.out.println("fim do metodo1");
+}
+
+static void metodo2() {
+	System.out.println("inicio do metodo2");
+	int i;
+	int[] array = new int [10];
+	
+}
